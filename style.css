@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #fafafa;
+    padding: 40px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.buttons button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.box {
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff5cc;
+    border-radius: 10px;
+    font-size: 22px;
+    min-height: 60px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speech → Translate → Speech</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 20px; }
+        select, button { padding: 10px; margin: 5px; font-size: 16px; }
+        .box { background: #fff5cc; padding: 20px; margin: 10px auto; width: 80%; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<h1>Speech → Translate → Speech</h1>
+
+From
+<select id="sourceLang">
+    <option value="en">English</option>
+    <option value="hi">Hindi</option>
+    <option value="ta">Tamil</option>
+    <option value="te">Telugu</option>
+</select>
+
+To
+<select id="targetLang">
+    <option value="en">English</option>
+    <option value="hi">Hindi</option>
+    <option value="ta">Tamil</option>
+    <option value="te">Telugu</option>
+</select>
+
+<br><br>
+
+<button id="startBtn">🎤 Start</button>
+<button id="stopBtn" disabled>⛔ Stop</button>
+<button id="clearBtn">🧹 Clear</button>
+
+<h2>Transcript</h2>
+<div id="transcript" class="box"></div>
+
+<h2>Translation</h2>
+<div id="translated" class="box"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
