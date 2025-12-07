@@ -70,3 +70,7 @@ http://localhost:3000
 8.Click ⛔ Stop to end recording
 
 9.Click 🧹 Clear to reset everything
+
+
+
+<img width="1909" height="900" alt="image" src="https://github.com/user-attachments/assets/5d0319c0-c58d-4fd5-86d0-056cb0c00de7" />
